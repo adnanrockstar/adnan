@@ -1,0 +1,634 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Universal CSS  */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.section-padding {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* header area */
+.header-area{
+  width:100%;
+}
+.header-section {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  width: 20%;
+}
+
+.menu-section {
+  width: 60%;
+  padding-top: 5px;
+}
+.hire-me-section {
+  width: 20%;
+}
+.menu ul {
+  text-align: left;
+}
+.menu-section ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu-section ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1c1c57;
+}
+.menu-section ul li a:hover {
+  font-weight: bold;
+}
+.hire-me-section a {
+  text-decoration: none;
+  color: #fff;
+  background: #078d84;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+.hire-me-section a:hover {
+  background: #035f59;
+}
+
+/* Hero section  */
+.hero-section {
+  background-color: #f6f8ff;
+  padding: 70px 0px;
+  max-width:100%;
+  height: auto;
+  position: relative;
+}
+.hero-area {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-area-text .desc {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #3e3e70;
+}
+.hero-area-text .intro {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1c1c57;
+  margin-bottom: 20px;
+}
+.hero-area-button {
+  display: flex;
+  justify-content: flex-start;
+}
+.hero-area-text h1 {
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 62px;
+}
+.hire-me-btn {
+  background-color: #078d84;
+  padding: 16px 24px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #078d84;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.hire-me-btn:hover {
+  background: #035f59;
+  cursor: pointer;
+}
+.portfolio-btn {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #078d84;
+  border: 1px solid #078d84;
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+.portfolio-btn:hover {
+  background-color: #078d84;
+  color: #f6f8ff;
+  cursor: pointer;
+}
+.hero-area-button {
+  margin-top: 40px;
+}
+.hero-area-text {
+  width: 55%;
+}
+.hero-image {
+  width: 40%;
+  position: relative;
+}
+.hero-image img {
+  position: absolute;
+  bottom:-71px;
+  right:0px;
+  max-width:100%;
+
+}
+/* Brand Section  */
+.brand-area {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.brand-section {
+  background-color: #3e3e70;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width:100%;
+}
+.brand-area-text {
+  width: 20%;
+}
+
+.brand-area-text p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.brand-area-text p {
+  color: #ffffff;
+}
+
+.brand-logos img {
+  max-width: 100%;
+  height: auto;
+}
+.mt {
+  margin-top: 15px;
+}
+.brand-logos {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Service Area  */
+.service-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f6f8ff;
+  width:100%;
+}
+.service-heading-area {
+  display: flex;
+  flex-direction: row;
+}
+.service-heading {
+  width: 50%;
+}
+.service-description {
+  width: 50%;
+}
+.service-heading p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.service-heading h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #1c1c57;
+}
+.service-description p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #3e3e70;
+}
+.services {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  gap:10px;
+}
+.single-service {
+  width: 18%;
+  background-color: #ffffff;
+  padding: 20px 28px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+.single-service:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.single-service h3 {
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #000000;
+}
+.single-service p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3e3e70;
+}
+.text-center {
+  padding-left: 40%;
+}
+.service-area-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* About Section  */
+.about-me-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width:100%;
+}
+.about-me-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 60px;
+}
+.about-me-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-me-text {
+  padding: 40px 0px;
+  width: 45%;
+}
+.about-me-image {
+  width: 45%;
+}
+.about-me-text .p1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1c1c57;
+  margin-bottom: 15px;
+}
+.about-me-text h3 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.8162384033203125px;
+  text-align: left;
+  color: #1c1c57;
+  margin-bottom: 20px;
+}
+.about-me-text .p2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #1c1c57;
+  margin-bottom: 30px;
+}
+.about-statistics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.single-statistics .state-number {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.2px;
+  color: #1c1c57;
+}
+.single-statistics {
+  padding: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+}
+.single-statistics:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.single-statistics .state-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.about-statistics {
+  margin-bottom: 40px;
+}
+.hire-new-btn{
+  background-color: #078d84;
+  padding: 16px 24px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #078d84;
+  border-radius: 8px;
+
+}
+
+/* Testimonial  */
+.testimonial-section {
+  background-color: #255bf9;
+  padding: 70px 0px;
+  width:100%;
+}
+.star {
+  padding-left: 45%;
+  overflow: hidden;
+}
+.star img {
+  float: left;
+  margin-right: 5px;
+}
+.testimonial-text p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+.testimonial-text {
+  padding: 20px 140px;
+}
+.person-info {
+  padding-right: 15px;
+  display: flex;
+  gap: 10px;
+  border-right: 1px solid black;
+}
+.testimonial-person {
+  margin-top: 30px;
+  padding-left: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.person-name h6 {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.person-name p {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* newsletter section  */
+.newsletter-section {
+  background-color: #1c1c57;
+  padding: 70px 0px;
+  width:100%;
+}
+.newsletter-text {
+  text-align: center;
+}
+.newsletter-text h3 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.newsletter-text p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+.newsletter-area-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.newsletter-area-button .portfolio-btn {
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.newsletter-area-button .hire-me-btn {
+  background: #ffffff;
+  color: #1c1c57;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+}
+
+.newsletter-area-button .portfolio-btn:hover {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #1c1c57;
+}
+.newsletter-area-button .hire-me-btn:hover {
+  background: #e6e2e2;
+  color: #1c1c57;
+  border: 1px solid #e6e2e2;
+  font-size: 16px;
+}
+
+/* footer section  */
+.footer-section {
+  background-color: #1c1c57;
+  padding: 70px 0px;
+  width:100%;
+}
+.subscribe-form{
+    width:50%;
+}
+.footer-menu{
+    width: 10%;
+}
+.subscribe-form img {
+  margin-bottom: 10px;
+}
+
+.subscribe-form input[type="text"] {
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 16px 14px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #505050;
+}
+.subscribe-form .footer-btn {
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 16px 24px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.subscribe-form .footer-btn:hover {
+  background: #ffffff;
+  color: #1c1c57;
+  cursor: pointer;
+}
+.subscribe-form p{
+    margin-top: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: White;
+
+}
+
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color:#ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+   
+
+}
+.footer-menu h6{
+
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color:#ffffff;
+margin-bottom: 15px;
+
+}
+.footer-section hr{
+  margin: 15px 0px;
+  
+}
+.copyright-text p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color:#FFFFFF;
+
+}
+
+/* Responsive Menu  */
+.hamburger-menu i {
+  font-size: 25px;
+  display: none;
+
+}
+.hamburger-menu i:hover {
+  cursor:pointer;
+
+}
+.sidebar{
+  position: fixed;
+  top:0;
+  right: 0;
+  background-color: #FFFFFF;
+  width:250px;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index:999;
+}
+.sidebar li {
+    height: 50px;
+}
+
+.sidebar li a{
+  text-decoration: none;
+  font-family: Inter;
+  color:#1c1c57;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 20px;
+  height: 100%;
+  padding: 20px;
+}
+.sidebar li a:hover{
+ font-weight: bold;
+}
+.sidebar i{
+  color:#1c1c57;
+  font-size: 25px !important;
+  display: block;
+  
+}
+@media all and (max-width:800px){
+  .hamburger-menu i {
+    display: block;
+  }
+  .main-menu{
+    display: none;
+  }
+  .hire-me-section{
+    display: none;
+  }
+}

@@ -1,0 +1,338 @@
+/* Laptop: (992px - 1200px)   */
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .hero-area-text h1 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .service-heading h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .brand-logos {
+    width: 78%;
+    gap: 10px;
+  }
+  .brand-area {
+    gap: 10px;
+  }
+  .brand-area-text p {
+    font-size: 16px;
+  }
+  .service-description {
+    width: 42%;
+  }
+  .service-description p {
+    font-size: 14px;
+  }
+  .single-service {
+    width: 23%;
+  }
+  .about-me-text h3 {
+    font-size: 27px;
+    line-height: 39px;
+  }
+  .about-me-image {
+    width: 40%;
+  }
+  .about-me-text {
+    width: 40%;
+  }
+  .about-me-area {
+    gap: 40px;
+    justify-content: center;
+  }
+  .about-me-text {
+    padding: 0px;
+  }
+  .footer-area{
+   
+    gap:10px;
+}
+hr{
+  width:92%
+}
+
+}
+
+
+/* iPad Pro : 768px - 991px  */
+
+@media all and (min-width:768px) and (max-width:991px){
+  .about-me-text {
+    padding: 40px 0px;
+    width: 100%;
+}
+.about-me-image{
+  width:100%;
+}
+.about-me-text .p1 {
+  font-size: 25px;
+}
+.hero-area{
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+.hero-area-text {
+  width:100%;
+}
+.hero-image{
+  width:100%;
+}
+.hero-image img {
+  display:none;
+
+}
+.brand-area {
+  flex-direction:column;
+}
+.brand-area-text {
+  width: 100%;
+}
+.brand-area-text p{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.brand-logos{
+  width:100%;
+}
+.service-heading-area {
+  flex-direction: column;
+  
+}
+.service-heading {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.service-description{
+  width: 100%;
+}
+.single-service {
+  width: 40%;
+
+}
+.text-center {
+  padding-left: 28%;
+}
+.testimonial-text p {
+  font-size: 16px;
+}
+
+.testimonial-person {
+  padding-left: 23%;
+}
+.subscribe-form input[type="text"] {
+  margin-bottom: 15px;
+}
+
+}
+
+/* iPad : 576px - 767px  */
+
+@media all and (min-width:250px) and (max-width:767px){
+  .hero-area {
+    flex-direction: column;
+  }
+  .hero-area-text {
+    width: 100%;
+  }
+  .hero-image img {
+    display: none;
+  
+  }
+  .brand-area {
+    flex-direction:column;
+  }
+  .brand-area-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .brand-logos {
+    width: 100%;
+   
+  }
+  .service-heading-area {
+    flex-direction: column;
+  }
+  .service-heading {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .service-description {
+    width: 100%;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .single-service{
+    width: 90%;
+    text-align: center;
+  }
+  .text-center {
+    padding-left: 22%;
+  }
+  .about-me-image {
+    width: 100%;
+  }
+  .about-me-area {
+    flex-direction: column;
+  }
+  .about-me-text {
+    width: 100%;
+  }
+  .testimonial-text p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    
+  }
+  .testimonial-text {
+    padding: 20px ;
+  }
+  .testimonial-person {
+   padding-left: 0;
+    flex-direction: column;
+    
+    
+  }
+  
+.person-info {
+  padding-right: 0px;
+  display: flex;
+  text-align: center;
+  padding-left: 25%;
+}
+.person-company{
+  text-align: center;
+  
+}
+.footer-area{
+  flex-direction: column;
+}
+.subscribe-form{
+  width:100%;
+}
+.footer-menu{
+  width: 100%;
+  
+}
+
+
+}
+
+/* iphonne 14 Pro Max : 250px - 575px  */
+
+@media all and (min-width:250px) and (max-width:575px){
+  .hero-area-text h1 {
+    font-size: 27px;
+    line-height: 41px;
+}
+.hero-section{
+  text-align: center;
+}
+.hero-area-button {
+  flex-direction: column;
+}
+.hire-me-btn{
+  margin-bottom: 10px;
+}
+.hire-me-btn {
+  padding: 16px 15px;
+  font-size: 16px;
+  font-weight: 400;
+ 
+  margin-right: 0px;
+}
+.brand-logos{
+  flex-direction: column;
+  text-align: center;
+}
+.service-heading h2 {
+  font-size: 29px;
+  line-height: 39px;
+  text-align: center;
+}
+.service-heading p {
+  text-align: center;
+}
+.service-description{
+  text-align: center;
+}
+.single-service {
+  width: 80%;
+  text-align: center;
+}
+.service-area-button {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.service-area-button .hire-me-btn{
+  padding: 16px 24px;
+  width: 93%;
+}
+.service-area-button .portfolio-btn{
+  padding: 16px 24px;
+  width: 93%;
+}
+.text-center {
+  padding-left: 5px;
+}
+.about-me-text h3 {
+  font-size: 27px;
+  line-height: 41px;
+  text-align: center;
+}
+.about-me-section{
+  text-align: center;
+}
+.about-statistics{
+  text-align: center;
+  flex-direction: column;
+  
+}
+.star {
+  padding-left: 34%;
+}
+.person-info {
+  flex-direction: column;
+  text-align: center;
+  
+}
+.person-info {
+  padding-right: 0px;
+  border-right: 0px solid black;
+  
+}
+.person-info{
+  margin-left: -95px;
+}
+.newsletter-area-button .hire-me-btn{
+  display: block;
+  width: 100%;
+}
+
+.newsletter-area-button  .portfolio-btn{
+  display: block;
+  width: 100%;
+}
+.newsletter-text h3 {
+  font-size: 29px;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.subscribe-form input[type="text"] {
+  display: block;
+}
+.subscribe-form input[type="text"] {
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.subscribe-form  .footer-btn{
+  display: block;
+  
+}
+} 
